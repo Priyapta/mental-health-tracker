@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://https://priyapta-naufal-mentalhealthtracker2.pbp.cs.ui.ac.id/", "https://https://priyapta-naufal-mentalhealthtracker2.pbp.cs.ui.ac.id/"]
+
 ROOT_URLCONF = 'mental_health_tracker.urls'
 
 TEMPLATES = [
